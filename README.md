@@ -13,7 +13,7 @@ min-ua
 [david-url]: https://david-dm.org/chunpu/min-ua
 
 
-
+Mini Javascript User Agent Detect Lib
 
 Installation
 ---
@@ -22,23 +22,27 @@ Installation
 npm i min-ua
 ```
 
-Inspired by ![ua-device](https://github.com/fex-team/ua-device)
+Inspired by [ua-device](https://github.com/fex-team/ua-device)
 
-Get raw user agent string from ![useragentstring](http://www.useragentstring.com/pages/useragentstring.php)
+Get raw user agent string from [useragentstring](http://www.useragentstring.com/pages/useragentstring.php)
+
+### Browser Name
+
+- IE
+- Edge
+- Chrome
+- Firefox
+- Safari
 
 ### Example
 
 ```js
 var UA = require('min-ua')
+
 var userAgent = UA.detect(navigator.userAgent)
+
 console.log(userAgent)
-// =>
-/*
-{
-  browserName,
-  browserVersion
-}
-*/
+// => {browserName: 'IE', browserVersion: 8}
 ```
 
 License
