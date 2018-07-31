@@ -13,7 +13,7 @@ min-ua
 [david-url]: https://david-dm.org/chunpu/min-ua
 
 
-Mini Javascript User Agent Detect Lib
+Mini Javascript User Agent Detect Library
 
 Installation
 ---
@@ -25,6 +25,8 @@ npm i min-ua
 Inspired by [ua-device](https://github.com/fex-team/ua-device)
 
 Get raw user agent string from [useragentstring](http://www.useragentstring.com/pages/useragentstring.php)
+
+Support **IE6+**
 
 ### Browser Name
 
